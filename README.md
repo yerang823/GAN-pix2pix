@@ -1,13 +1,22 @@
 # Result
 ### Bar plot of RMSE by part
-![image](https://user-images.githubusercontent.com/97432613/158047011-a57c32f4-9f72-46a9-a899-36e76cf43a0f.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/97432613/158047011-a57c32f4-9f72-46a9-a899-36e76cf43a0f.png"  width="50%" height="50%"/>
+</p>
 
 ### Original CT image / synthetic GAN image
-![image](https://user-images.githubusercontent.com/97432613/158047018-a5a710f3-b987-45ef-8d73-9c1b57fae5e1.png)
-![image](https://user-images.githubusercontent.com/97432613/158047022-1949f081-54ed-4c41-a7f4-08debeea488b.png)
-![image](https://user-images.githubusercontent.com/97432613/158047024-b18100a2-c396-4c5c-b470-c11edd184c0f.png)
-![image](https://user-images.githubusercontent.com/97432613/158047025-1e0042f1-8581-43c7-8e9c-6f5fbc37d775.png)
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/97432613/158047018-a5a710f3-b987-45ef-8d73-9c1b57fae5e1.png"  width="50%" height="50%"/>
+</p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/97432613/158047022-1949f081-54ed-4c41-a7f4-08debeea488b.png"  width="50%" height="50%"/>
+</p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/97432613/158047024-b18100a2-c396-4c5c-b470-c11edd184c0f.png"  width="50%" height="50%"/>
+</p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/97432613/158047025-1e0042f1-8581-43c7-8e9c-6f5fbc37d775.png"  width="50%" height="50%"/>
+</p>
 
 # Usage
 
