@@ -3,3 +3,4 @@ result/
 result2/
 datasets/
 saved_model/
+*.ipynb
