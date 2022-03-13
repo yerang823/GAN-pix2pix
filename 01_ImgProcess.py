@@ -135,3 +135,24 @@ def dcm2bmp(path_dir, bmp_path, foldername, bool_save):
             cv2.imwrite(bmp_path+'mr/%s_{0:03d}.bmp'.format(j)%(foldername),bmp_mr[k])
 			
 			
+# Histogram Equalization
+def HE(path,img_li,folders):
+
+	for dataset_name in folders:
+		path='datasets/20210704/mr2ct_crop_region3/'
+		img_li=glob.glob(path+dataset_name+'/*.bmp')
+		print(len(img_li))
+		print('dataset_name=',dataset_name)
+
+		for idx,img_path in enumerate(img_li):
+
+			print(idx,'/',len(img_li), img_path)
+			img=cv2.imread(img_path,cv2.IMREAD_GRAYSCALE)
+			img_hi=cv2.calcHist([img],[0],None,[256],[0,256])
+			img_HE=cv2.equalizeHist(img)
+			img_HE_hi=cv2.calcHist([img_HE],[0],None,[256],[0,256])
+
+			img_name=img_path.split('/')[-1]
+			save_path='datasets/20210804/mr2ct_crop_region3/'+dataset_name+'/'+img_name
+			print('save_path=',save_path)
+			cv2.imwrite(save_path, img_HE)
